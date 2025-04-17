@@ -8,6 +8,7 @@ phases:
       - echo Installing dependencies...
   build:
     commands:
+      - chmod +x scripts/*.sh
       - echo Build started on `date`
       - echo Build completed on `date`
 
